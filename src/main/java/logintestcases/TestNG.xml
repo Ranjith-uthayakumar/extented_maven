@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="login suite">
+	<test name= "login to application">
+	<classes>
+		<class name= "logintestcases.Dataprovidereg" />
+	</classes>	
+	</test>
+	
+	
+	<!--<test name= "Bothcorrect">
+		<parameter name="username" value="student"></parameter>
+		<parameter name="password" value="Password123"></parameter>
+	<classes>
+		<class name="logintestcases.Bothcorrect"></class>
+	</classes>	
+	</test>
+
+	<test name="Bothincorrect">
+		<parameter name="username" value="Password123"></parameter>
+		<parameter name="password" value="student"></parameter>
+	<classes>
+		<class name="logintestcases.Bothincorrect"></class>
+	</classes>	
+	</test>
+	
+		<test name="correctpassword">
+			<parameter name="username" value="student1"></parameter>
+		<parameter name="password" value="Password123"></parameter>
+	<classes>
+		<class name="logintestcases.correctpassword"></class>
+	</classes>	
+	</test>
+	
+		<test name="correctusername">
+			<parameter name="username" value="student"></parameter>
+		<parameter name="password" value="123"></parameter>
+	<classes>
+		<class name="logintestcases.correctusername"></class>
+	</classes>	
+	</test> -->
+	
+	</suite>
+	

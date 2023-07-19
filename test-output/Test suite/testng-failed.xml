@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Test suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="2" parallel="methods" name="Test case(failed)" verbose="2">
+    <parameter name="Name" value="ranjith"/>
+    <classes>
+      <class name="TestNG.paralleleg">
+        <methods>
+          <include name="openbing"/>
+          <include name="opengoogle"/>
+        </methods>
+      </class> <!-- TestNG.paralleleg -->
+    </classes>
+  </test> <!-- Test case(failed) -->
+</suite> <!-- Failed suite [Test suite] -->
